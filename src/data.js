@@ -24,7 +24,8 @@ export const publications = [
     },
     {
         title: "Classic Models, Modern Threats: A Study on Adversarial Attack and Defense for Traditional ML Models",
-        description: "Experimental research analyzing adversarial attacks such as FGSM and PGD on traditional machine learning models and evaluating defensive techniques."
+        description: "Experimental research analyzing adversarial attacks such as FGSM and PGD on traditional machine learning models and evaluating defensive techniques.",
+        link: "https://link.springer.com/chapter/10.1007/978-3-032-10016-0_20"
     },
     {
         title: "Systematic Evaluation of Vision Transformer Robustness under Gradient, Optimization, and Black-Box Attacks with Hybrid Defense Mechanisms",
@@ -49,6 +50,7 @@ export const projects = [
         title: "Hybrid Context Preservation Model for LLM Systems",
         description: "Developed a hybrid architecture designed to prevent context degradation (\"context rot\") in long-running LLM interactions by combining memory retrieval mechanisms with structured contextual reconstruction techniques.",
         tags: ["LLM Memory Systems", "Context Management", "RAG + Memory Hybrid Models", "Prompt Engineering"],
+        link: "https://ever-mind.alexkh.site/",
         icon: Brain
     },
     {

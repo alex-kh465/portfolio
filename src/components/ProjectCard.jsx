@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { ExternalLink } from 'lucide-react';
 
 const ProjectCard = ({ project, index }) => {
     const Icon = project.icon;
@@ -33,6 +34,19 @@ const ProjectCard = ({ project, index }) => {
                     </span>
                 ))}
             </div>
+
+            {project.link && (
+                <div className="mt-5 pt-5 border-t border-dark-neutral-700/50">
+                    <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-sm font-medium text-accent-blue hover:text-blue-400 transition-colors"
+                    >
+                        View Project <ExternalLink className="ml-1.5 w-4 h-4" />
+                    </a>
+                </div>
+            )}
         </motion.div>
     );
 };
