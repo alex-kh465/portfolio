@@ -1,9 +1,9 @@
 import { Code, Server, AppWindow, Database, Brain, Cpu, Shield, BookOpen, Layers, Bot, LineChart, FileText } from 'lucide-react';
 
 export const portfolioData = {
-    name: "Alex Khundongbam",
-    title: "AI Engineer | Machine Learning Systems | MLOps & Workflow Automation",
-    description: "AI Engineer specializing in machine learning systems, LLM-powered applications, intelligent workflow automation, and production-ready AI deployments. Experienced in designing scalable AI pipelines, automation systems, and real-world machine learning solutions.",
+    name: "CodeWalnut ML Team",
+    title: "AI Engineering | Machine Learning Systems | MLOps & Workflow Automation",
+    description: "An elite AI Engineering team specializing in machine learning systems, LLM-powered applications, intelligent workflow automation, and production-ready AI deployments. Experienced in designing scalable AI pipelines, automation systems, and real-world machine learning solutions.",
     badge: "Pending Patent: AI Student Productivity Assistant Platform"
 };
 

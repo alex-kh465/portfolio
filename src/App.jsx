@@ -31,8 +31,8 @@ function App() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-6 leading-tight"
           >
-            Hi, I'm {portfolioData.name.split(' ')[0]}.<br />
-            <span className="text-gray-400">I build <span className="text-white">intelligent</span> systems.</span>
+            Hi, We are the {portfolioData.name}.<br />
+            <span className="text-gray-400">We build <span className="text-white">intelligent</span> systems.</span>
           </motion.h1>
 
           <motion.h2
@@ -59,9 +59,9 @@ function App() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-wrap gap-4"
           >
-            <a href="mailto:hello@example.com" className="px-6 py-3 bg-accent-blue hover:bg-blue-600 text-white font-medium rounded-lg transition-colors flex items-center gap-2 shadow-lg shadow-accent-blue/20">
+            <a href="https://www.codewalnut.com/contact-us" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-accent-blue hover:bg-blue-600 text-white font-medium rounded-lg transition-colors flex items-center gap-2 shadow-lg shadow-accent-blue/20">
               <Mail className="w-5 h-5" />
-              Contact Me
+              Contact Us
             </a>
             <a href="#projects" className="px-6 py-3 bg-dark-neutral-800 hover:bg-dark-neutral-700 text-white font-medium rounded-lg border border-dark-neutral-700 transition-colors flex items-center gap-2">
               View Projects
@@ -143,7 +143,7 @@ function App() {
       <footer className="border-t border-dark-neutral-800 bg-dark-neutral-900/50 py-12 px-6">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Alex Khundongbam. All rights reserved.
+            © {new Date().getFullYear()} CodeWalnut. All rights reserved.
           </div>
           <div className="flex items-center gap-4 text-gray-500">
             <a href="#" className="hover:text-accent-blue transition-colors p-2 hover:bg-dark-neutral-800 rounded-full">

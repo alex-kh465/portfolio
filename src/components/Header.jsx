@@ -10,7 +10,7 @@ const Header = () => {
         >
             <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
                 <div className="font-bold text-xl tracking-tight text-white">
-                    Alex<span className="text-accent-blue">.AI</span>
+                    CodeWalnut<span className="text-accent-blue">.ML</span>
                 </div>
                 <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-400">
                     <a href="#about" className="hover:text-white transition-colors">About</a>
